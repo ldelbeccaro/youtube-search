@@ -1,0 +1,133 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General */
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	background-color: #f0f0f0;
+}
+header {
+	position: relative;
+	height: 2.2em;
+	margin: 0 0 1.5em;
+	padding: 1em;
+	background-color: #fff;
+	border-bottom: #ccc;
+	-moz-box-shadow: 1px 1px 1px #eee, -1px 1px 1px #eee;
+	-webkit-box-shadow: 1px 1px 1px #eee, -1px 1px 1px #eee;
+	box-shadow: 1px 1px 1px #eee, -1px 1px 1px #eee;
+}
+h1 {
+	position: relative;
+	float: left;
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 2.2em;
+	top: -20%;
+}
+.red {
+	color: #e60000;
+}
+a > p {
+	font-size: 1em;
+	margin: 0.3em;
+	color: rgb(22, 122, 198);
+}
+a > p:hover {
+	text-decoration: underline;
+}
+form {
+	position: relative;
+	max-width: 33em;
+	height: 100%;
+	margin: 0 auto;
+	-moz-box-shadow: 1px 1px 1px #eee, -1px 1px 1px #eee;
+	-webkit-box-shadow: 1px 1px 1px #eee, -1px 1px 1px #eee;
+	box-shadow: 1px 1px 1px #eee, -1px 1px 1px #eee;
+}
+#search {
+	position: relative;
+	width: 78.25%;
+	height: 70%;
+	padding: 0.2em;
+	font-size: 1em;
+}
+#submit {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	padding: 0.2em;
+	font-size: 1em;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-radius: 1px;
+}
+#search-results {
+	max-width: 60em;
+	margin: 0.5em 1em;
+	background-color: #fff;
+	-moz-box-shadow: 1px 1px 1px #eee, -1px 1px 1px #eee;
+	-webkit-box-shadow: 1px 1px 1px #eee, -1px 1px 1px #eee;
+	box-shadow: 1px 1px 1px #eee, -1px 1px 1px #eee;
+}
+.result {
+	margin: 1em;
+	height: 12em;
+	position: relative;
+}
+.thumbnail {
+	position: absolute;
+	width: 25%;
+	max-width: 20em;
+	max-height: 100%;
+	margin: 1em;
+}
+.title {
+	position: absolute;
+	width: 67%;
+	left: 28%;
+	margin: 1em;
+}
